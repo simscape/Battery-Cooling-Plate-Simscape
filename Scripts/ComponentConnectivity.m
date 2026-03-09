@@ -394,6 +394,10 @@ classdef ComponentConnectivity
             componentsFolder = fullfile(prjRoot, 'Components');
             cd (componentsFolder);
 
+            % Suppress Library Browser warning
+            warnState = warning('off', 'Simulink:Libraries:LibBrowserInfoSkipped');
+            cleanupObj = onCleanup(@() warning(warnState));
+
             % Compile |ssc| file for thermal network into a library
             sscbuild coolingPlateThermal;
 
