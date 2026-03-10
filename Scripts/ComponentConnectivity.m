@@ -398,7 +398,7 @@ classdef ComponentConnectivity
             warnState = warning("off", "sl_lib_browse2:sl_lib_browse2:SLLB_ReposNotSupportedNoDisplay");
             cleanupObj = onCleanup(@() warning(warnState));
 
-            % Compile ssc file for thermal network into a library
+            % Compile |ssc| file for thermal network into a library
             sscbuild coolingPlateThermal;
 
             % Add Simscape Component in model canvas
