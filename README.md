@@ -1,6 +1,6 @@
 # Battery Cooling Plate Design with Simscape
 
-[![View Battery Thermal Management System with Simscape on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://mathworks.com/matlabcentral/fileexchange/battery-thermal-management-system-with-simscape)
+[![View Battery Thermal Management System with Simscape on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://mathworks.com/matlabcentral/fileexchange/183372-battery-cooling-plate-design-with-simscape)
 
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=simscape/Battery-Cooling-Plate-Simscape)
  
